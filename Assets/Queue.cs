@@ -1,9 +1,9 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
-using UnityEditor;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 using UnityEngine.UI;
 
 public class Queue : MonoBehaviour
@@ -13,6 +13,7 @@ public class Queue : MonoBehaviour
     public GameObject @base;
     [Range(0, 1)] public float blockDistance;
     public GameObject stackElement;
+    public GameObject container;
     public Button dequeueButton;
 
     private void Start()
@@ -26,7 +27,7 @@ public class Queue : MonoBehaviour
 
         if (queue.Count == 0)
         {
-            y = @base.transform.position.y + blockDistance*2;
+            y = @base.transform.position.y + blockDistance*3;
         }
         else
         {
@@ -43,7 +44,6 @@ public class Queue : MonoBehaviour
 
         queue.Enqueue(cube);
     }
-
     public async void Dequeue()
     {
         dequeueButton.enabled = false;
@@ -54,19 +54,36 @@ public class Queue : MonoBehaviour
         await fader.FadeOut();
         
         Destroy(got);
+        
         foreach (var o in queue)
         {
-            var y = o.transform.position.y - stackElement.transform.lossyScale.y - blockDistance;
-            MoveDown(o, y);
+            o.transform.parent = null;
         }
-
+        
+        could = queue.TryPeek(out var next);
+        if (!could)
+        {
+            dequeueButton.enabled = true;
+            return;
+        }
+        
+        var pos = container.transform.position;
+        pos.y = next.transform.position.y - blockDistance*2;
+        container.transform.position = pos;
+        
+        foreach (var o in queue)
+        {
+            o.transform.parent = container.transform;
+        }
+        var y = @base.transform.position.y;
+        await MoveY(container, y);
         dequeueButton.enabled = true;
     }
 
-    private async Task MoveDown(GameObject obj, float target)
+    private async Task MoveY(GameObject obj, float target)
     {
         var original = obj.transform.position.y;
-        for (var t = 0f; t < 1; t += 0.05f)
+        for (var t = 0f; t < 1; t += 0.1f)
         {
             obj.transform.position = new Vector3(transform.position.x, Mathf.Lerp(original, target, t), transform.position.z);
             await Fade.WaitForSeconds(0.05f);

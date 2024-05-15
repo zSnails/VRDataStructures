@@ -3614,6 +3614,8 @@ MonoBehaviour:
   base: {fileID: 177818085}
   blockDistance: 0.01
   stackElement: {fileID: 7922598225626140570, guid: 02087ff02c46c024291a3065e8d12870, type: 3}
+  container: {fileID: 1055680624}
+  dequeueButton: {fileID: 634359632}
 --- !u!1001 &1085821427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5110,7 +5112,7 @@ GameObject:
   - component: {fileID: 1537222883}
   - component: {fileID: 1537222882}
   m_Layer: 0
-  m_Name: Queue
+  m_Name: Enqueue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5678,7 +5680,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Queue
+  m_text: Enqueue
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5705,7 +5707,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24.9
+  m_fontSize: 18.65
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
