@@ -1,9 +1,11 @@
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using Unity.VisualScripting.ReorderableList;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 using UnityEngine.UI;
 
 public class Queue : MonoBehaviour
@@ -16,9 +18,9 @@ public class Queue : MonoBehaviour
     public GameObject container;
     public Button dequeueButton;
 
-    private void Start()
+    private void Awake()
     {
-        this.queue = new Queue<GameObject>();
+        queue = new Queue<GameObject>();
     }
 
     public void Enqueue()
@@ -27,7 +29,7 @@ public class Queue : MonoBehaviour
 
         if (queue.Count == 0)
         {
-            y = @base.transform.position.y + blockDistance*3;
+            y = @base.transform.position.y + blockDistance * 3;
         }
         else
         {
@@ -44,49 +46,52 @@ public class Queue : MonoBehaviour
 
         queue.Enqueue(cube);
     }
+
     public async void Dequeue()
     {
-        dequeueButton.enabled = false;
         var could = queue.TryDequeue(out var got);
-        if (!could) return;
+        if (!could)
+            return;
+
         var fader = got.GetComponent<Fade>();
-        
         await fader.FadeOut();
-        
+
         Destroy(got);
-        
-        foreach (var o in queue)
-        {
-            o.transform.parent = null;
-        }
-        
+
         could = queue.TryPeek(out var next);
         if (!could)
-        {
-            dequeueButton.enabled = true;
             return;
-        }
         
-        var pos = container.transform.position;
-        pos.y = next.transform.position.y - blockDistance*2;
-        container.transform.position = pos;
-        
-        foreach (var o in queue)
-        {
-            o.transform.parent = container.transform;
-        }
-        var y = @base.transform.position.y;
-        await MoveY(container, y);
-        dequeueButton.enabled = true;
-    }
+        foreach (var o in queue) o.transform.parent = null;
 
-    private async Task MoveY(GameObject obj, float target)
+        var pos = container.transform.position;
+        pos.y = next.transform.position.y;// - blockDistance * 2;
+        container.transform.position = pos;
+
+        foreach (var o in queue) o.transform.parent = container.transform;
+
+        var y = @base.transform.position.y + blockDistance*2;
+
+        _cancellationTokenSource?.Cancel();
+
+        if (_latestTask != null)
+        {
+            StopCoroutine(nameof(MoveY));
+        }
+        _latestTask = StartCoroutine(nameof(MoveY), y);
+    }
+    
+    private Coroutine _latestTask = null;
+    private CancellationTokenSource _cancellationTokenSource;
+
+    public IEnumerator MoveY(float target)
     {
-        var original = obj.transform.position.y;
+        var original = container.transform.position.y;
         for (var t = 0f; t < 1; t += 0.1f)
         {
-            obj.transform.position = new Vector3(transform.position.x, Mathf.Lerp(original, target, t), transform.position.z);
-            await Fade.WaitForSeconds(0.05f);
+            container.transform.position =
+                new Vector3(transform.position.x, Mathf.Lerp(original, target, t), transform.position.z);
+            yield return new WaitForSeconds(0.05f);
         }
     }
 }

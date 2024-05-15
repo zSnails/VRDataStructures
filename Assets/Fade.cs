@@ -10,7 +10,7 @@ public class Fade : MonoBehaviour
     
     private void Awake()
     {
-        mat = this.GetComponent<MeshRenderer>().material;
+        mat = GetComponent<MeshRenderer>().material;
     }
 
     public void FadeIn()
@@ -28,8 +28,11 @@ public class Fade : MonoBehaviour
         {
             c.a = i;
             mat.color = c;
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.01f);
         }
+        
+        c.a = 1.0f;
+        mat.color = c;
     }
 
     public async Task FadeOut()
@@ -41,8 +44,11 @@ public class Fade : MonoBehaviour
         {
             c.a = i;
             mat.color = c;
-            await WaitForSeconds(0.05f);
+            await WaitForSeconds(0.01f);
         }
+        
+        c.a = 0.0f;
+        mat.color = c;
     }
 
     public static async Task WaitForSeconds(float delay)
