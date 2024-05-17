@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{8B4D0339-BB83-D88D-36DD-24F7724EE476}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B4D0339-BB83-D88D-36DD-24F7724EE476}|Assembly-CSharp.csproj|d:\\proyectovr\\vrdatastructures\\assets\\scripts\\volumevaluelistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B4D0339-BB83-D88D-36DD-24F7724EE476}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\volumevaluelistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ProyectoVR\\VRDataStructures\\Assets\\VolumeValueListener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\VolumeValueListener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B4D0339-BB83-D88D-36DD-24F7724EE476}|Assembly-CSharp.csproj|d:\\proyectovr\\vrdatastructures\\assets\\scripts\\loadinggamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4D0339-BB83-D88D-36DD-24F7724EE476}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loadinggamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,34 +28,23 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Exit.cs",
               "ToolTip": "D:\\ProyectoVR\\VRDataStructures\\Assets\\Scripts\\Exit.cs",
               "RelativeToolTip": "Assets\\Scripts\\Exit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T05:58:16.847Z",
+              "WhenOpened": "2024-05-17T06:50:42.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VolumeValueListener.cs",
-              "DocumentMoniker": "D:\\ProyectoVR\\VRDataStructures\\Assets\\Scripts\\VolumeValueListener.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\VolumeValueListener.cs",
-              "ToolTip": "D:\\ProyectoVR\\VRDataStructures\\Assets\\Scripts\\VolumeValueListener.cs",
-              "RelativeToolTip": "Assets\\Scripts\\VolumeValueListener.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "LoadingGameScene.cs",
+              "DocumentMoniker": "D:\\ProyectoVR\\VRDataStructures\\Assets\\Scripts\\LoadingGameScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LoadingGameScene.cs",
+              "ToolTip": "D:\\ProyectoVR\\VRDataStructures\\Assets\\Scripts\\LoadingGameScene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LoadingGameScene.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T05:51:00.435Z",
+              "WhenOpened": "2024-05-17T06:47:36.162Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VolumeValueListener.cs",
-              "DocumentMoniker": "D:\\ProyectoVR\\VRDataStructures\\Assets\\VolumeValueListener.cs",
-              "RelativeDocumentMoniker": "Assets\\VolumeValueListener.cs",
-              "ToolTip": "D:\\ProyectoVR\\VRDataStructures\\Assets\\VolumeValueListener.cs",
-              "RelativeToolTip": "Assets\\VolumeValueListener.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T02:18:19.598Z"
             }
           ]
         }
