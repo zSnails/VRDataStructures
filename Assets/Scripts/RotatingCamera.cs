@@ -5,7 +5,7 @@ using UnityEngine;
 public class RotatingCamera : MonoBehaviour
 {
     public float speed = 90f;
-    public Camera mainCamera;
+    public GameObject mainCamera;
     private Quaternion initialRotation;
 
     private void Start()
