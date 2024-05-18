@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6a52926-e352-4931-b652-2cef357a6786" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/LowPoly Environment Pack/Demo/Demo 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowPoly Environment Pack/Demo/Demo 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/PixelifySans-VariableFont_wght SDF 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/PixelifySans-VariableFont_wght SDF 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +99,7 @@
       <workItem from="1715932199399" duration="604000" />
       <workItem from="1715998697373" duration="187000" />
       <workItem from="1715999128552" duration="667000" />
-      <workItem from="1715999962644" duration="4353000" />
+      <workItem from="1715999962644" duration="4950000" />
     </task>
     <servers />
   </component>

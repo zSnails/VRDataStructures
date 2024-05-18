@@ -2482,11 +2482,11 @@ MonoBehaviour:
     A stack is a data structure that follows the Last In, First
     Out (LIFO) principle, where the last element added is the first one to be removed.
 
-    
+
 
     Operation:
 
-    
+
 
     Push:
     Adds an element to the top of the stack.
@@ -4431,11 +4431,11 @@ MonoBehaviour:
     A singly linked list is a collection of nodes
     where each node points to the next node in the sequence.
 
-    
+
 
     Operation:
 
-    
+
 
     Each
     node contains data and a reference to the next node.
@@ -4634,18 +4634,18 @@ MonoBehaviour:
     A queue is a data structure that follows the First In, First
     Out (FIFO) principle, where the first element added is the first one to be removed.
 
-    
+
 
     Operation:
 
-    
+
 
     Enqueue:
     Adds an element to the end of the queue.
 
 
-    Dequeue: Removes the element
-    from the front of the queue.
+    Dequeue: Removes the element from
+    the front of the queue.
 
 
     Try it!'
@@ -4887,10 +4887,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.85
+  m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -5599,7 +5599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6289,7 +6289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6809,14 +6809,14 @@ MonoBehaviour:
     singly or doubly linked list, where the last node connects back to the first
     node, forming a circle.
 
-    
+
 
     Operation:
 
-    
 
-    In a singly circular
-    list, each node points to the next, and the last node points back to the first.
+
+    In a singly circular list, each
+    node points to the next, and the last node points back to the first.
 
 
     In
@@ -7612,10 +7612,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18.65
-  m_fontSizeBase: 24
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -7832,10 +7832,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.85
+  m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -8696,10 +8696,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18.4
-  m_fontSizeBase: 24
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
