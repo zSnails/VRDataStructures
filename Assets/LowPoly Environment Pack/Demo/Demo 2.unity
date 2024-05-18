@@ -2491,14 +2491,15 @@ MonoBehaviour:
     Push:
     Adds an element to the top of the stack.
 
+
     Pop: Removes the element from
     the top of the stack.
 
 
     Try it!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a65490ccd4be21c4abe9c5755374c250, type: 2}
-  m_sharedMaterial: {fileID: 1015396095913264309, guid: a65490ccd4be21c4abe9c5755374c250, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4439,14 +4440,15 @@ MonoBehaviour:
     Each
     node contains data and a reference to the next node.
 
+
     The first node is
     called the "head," and the last node points to null.
 
 
     Try it!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a65490ccd4be21c4abe9c5755374c250, type: 2}
-  m_sharedMaterial: {fileID: 1015396095913264309, guid: a65490ccd4be21c4abe9c5755374c250, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4641,14 +4643,15 @@ MonoBehaviour:
     Enqueue:
     Adds an element to the end of the queue.
 
-    Dequeue: Removes the element from
-    the front of the queue.
+
+    Dequeue: Removes the element
+    from the front of the queue.
 
 
     Try it!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a65490ccd4be21c4abe9c5755374c250, type: 2}
-  m_sharedMaterial: {fileID: 1015396095913264309, guid: a65490ccd4be21c4abe9c5755374c250, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6815,6 +6818,7 @@ MonoBehaviour:
     In a singly circular
     list, each node points to the next, and the last node points back to the first.
 
+
     In
     a doubly circular list, each node has references to the next and previous nodes,
     and the end nodes connect back to the beginning.
@@ -6822,8 +6826,8 @@ MonoBehaviour:
 
     Try it!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a65490ccd4be21c4abe9c5755374c250, type: 2}
-  m_sharedMaterial: {fileID: 1015396095913264309, guid: a65490ccd4be21c4abe9c5755374c250, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8954,11 +8958,11 @@ MonoBehaviour:
   m_text: "Doubly Linked List\n\nA doubly linked list is similar to a singly linked
     list, but each node has references to both the next and previous nodes.\n\r\nOperation:\r\n\r   
     \nEach node contains data, a reference to the next node, and a reference to the
-    previous node.\r\nAllows navigation in both directions, from head to tail and
+    previous node.\r\n\nAllows navigation in both directions, from head to tail and
     vice versa.\n\nTry it!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a65490ccd4be21c4abe9c5755374c250, type: 2}
-  m_sharedMaterial: {fileID: 1015396095913264309, guid: a65490ccd4be21c4abe9c5755374c250, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
