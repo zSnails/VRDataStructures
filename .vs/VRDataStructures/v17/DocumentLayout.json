@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{8B4D0339-BB83-D88D-36DD-24F7724EE476}|Assembly-CSharp.csproj|d:\\proyectovr\\vrdatastructures\\assets\\scripts\\rotatingcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B4D0339-BB83-D88D-36DD-24F7724EE476}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotatingcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B4D0339-BB83-D88D-36DD-24F7724EE476}|Assembly-CSharp.csproj|d:\\proyectovr\\vrdatastructures\\assets\\scripts\\canvasfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4D0339-BB83-D88D-36DD-24F7724EE476}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\canvasfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B4D0339-BB83-D88D-36DD-24F7724EE476}|Assembly-CSharp.csproj|d:\\proyectovr\\vrdatastructures\\assets\\fade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4D0339-BB83-D88D-36DD-24F7724EE476}|Assembly-CSharp.csproj|solutionrelative:assets\\fade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Fade.cs",
+              "DocumentMoniker": "D:\\ProyectoVR\\VRDataStructures\\Assets\\Fade.cs",
+              "RelativeDocumentMoniker": "Assets\\Fade.cs",
+              "ToolTip": "D:\\ProyectoVR\\VRDataStructures\\Assets\\Fade.cs",
+              "RelativeToolTip": "Assets\\Fade.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwDoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T06:36:19.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CanvasFade.cs",
+              "DocumentMoniker": "D:\\ProyectoVR\\VRDataStructures\\Assets\\Scripts\\CanvasFade.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CanvasFade.cs",
+              "ToolTip": "D:\\ProyectoVR\\VRDataStructures\\Assets\\Scripts\\CanvasFade.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CanvasFade.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA3wC0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T06:36:09.523Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +58,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\RotatingCamera.cs",
               "ToolTip": "D:\\ProyectoVR\\VRDataStructures\\Assets\\Scripts\\RotatingCamera.cs",
               "RelativeToolTip": "Assets\\Scripts\\RotatingCamera.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAgwAoAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T04:38:49.739Z",
               "EditorCaption": ""

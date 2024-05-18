@@ -14,7 +14,7 @@ public class RotatingCamera : MonoBehaviour
     }
     public void TurnRight()
     {
-        StartCoroutine(RotateCamera(90));
+        StartCoroutine(RotateCamera(65));
     }
 
     public void ResetCameraRotation()

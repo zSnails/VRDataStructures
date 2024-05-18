@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Queue.cs" />
     <Compile Include="Assets\Scripts\VolumeValueListener.cs" />
+    <Compile Include="Assets\Scripts\CanvasFade.cs" />
     <Compile Include="Assets\Scripts\Exit.cs" />
     <Compile Include="Assets\Stacker.cs" />
     <Compile Include="Assets\Fade.cs" />
