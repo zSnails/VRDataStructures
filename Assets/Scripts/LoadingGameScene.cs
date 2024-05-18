@@ -4,20 +4,7 @@ using UnityEngine;
 
 public class LoadingGameScene : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void LoadGameScene(){
         UnityEngine.SceneManagement.SceneManager.LoadScene("Demo 2");
-        //Debug.Log("Hola");
     }
 }
