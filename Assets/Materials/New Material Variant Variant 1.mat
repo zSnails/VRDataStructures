@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material Variant Variant
+  m_Name: New Material Variant Variant 1
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_Parent: {fileID: 2100000, guid: 3d4af15b1bb81ce40b83ef7dc3e79d48, type: 2}
+  m_Parent: {fileID: 2100000, guid: f4502d9eaa6fdf148b5a296491837089, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -26,5 +26,5 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _Color: {r: 0, g: 1, b: 0.12074661, a: 1}
+    - _Color: {r: 1, g: 0.8695284, b: 0, a: 1}
   m_BuildTextureStacks: []
